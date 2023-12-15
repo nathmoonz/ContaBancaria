@@ -15,7 +15,7 @@ public class Menu {
 			System.out.println(Cores.TEXT_YELLOW + Cores.ANSI_BLACK_BACKGROUND
 					+ "*****************************************************");
 			System.out.println("                                                     ");
-			System.out.println("                BANCO DO BRAZIL COM Z                ");
+			System.out.println("                   BANCO VALES OURO                  ");
 			System.out.println("                                                     ");
 			System.out.println("*****************************************************");
 			System.out.println("                                                     ");
@@ -84,9 +84,7 @@ public class Menu {
 
 	public static void sobre() {
 		System.out.println("\n*********************************************************");
-		System.out.println("Projeto Desenvolvido por: ");
-		System.out.println("Generation Brasil - generation@generation.org");
-		System.out.println("github.com/conteudoGeneration");
+		System.out.println("Projeto Desenvolvido por: Nathalia Vales");
 		System.out.println("*********************************************************");
 	}
 
