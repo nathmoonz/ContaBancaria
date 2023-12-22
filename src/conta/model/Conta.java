@@ -5,7 +5,16 @@ public abstract class Conta {
 	private int agencia;
 	private int tipo;
 	private String titular;
-	private double saldo;
+	private float saldo;
+
+	
+	public Conta(int numero, int agencia, int tipo, String titular, float saldo) {
+		this.numero = numero;
+		this.agencia = agencia;
+		this.tipo = tipo;
+		this.titular = titular;
+		this.saldo = saldo;
+	}
 
 	public int getNumero() {
 		return numero;
@@ -39,11 +48,11 @@ public abstract class Conta {
 		this.titular = titular;
 	}
 
-	public double getSaldo() {
+	public float getSaldo() {
 		return saldo;
 	}
 
-	public void setSaldo(double saldo) {
+	public void setSaldo(float saldo) {
 		this.saldo = saldo;
 	}
 
